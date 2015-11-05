@@ -1,0 +1,3 @@
+support multiple email clients
+
+outlook,office365,google,yahoo   check for api's to support multiple clients
