@@ -1,6 +1,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBlack"
     tools:context="com.vishnurainigari.socialize.ViewPagerActivities.ThirdScreen">
 
     <!-- TODO: Update blank fragment layout -->
@@ -11,5 +12,6 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
         android:id="@+id/thirdScreen"
+        android:textColor="@color/colorWhite"
         android:layout_gravity="left|top" />
 </FrameLayout>

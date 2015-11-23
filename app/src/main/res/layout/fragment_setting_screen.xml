@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context="com.vishnurainigari.socialize.ViewPagerActivities.SettingScreen">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@color/colorBlack"
+            android:textColor="@color/colorWhite"
+            android:text="Workspace"
+            android:id="@+id/settings_workspace"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/borderLine"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@color/colorBlack"
+            android:textColor="@color/colorWhite"
+            android:text="Debug"
+            android:id="@+id/settings_debug"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/borderLine"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@color/colorBlack"
+            android:textColor="@color/colorWhite"
+            android:text="Do Not Disturb"
+            android:id="@+id/settings_DoNotDisturb"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/borderLine" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@color/colorBlack"
+            android:textColor="@color/colorWhite"
+            android:text="Button 1"
+            android:id="@+id/settings_button1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/borderLine"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@color/colorBlack"
+            android:textColor="@color/colorWhite"
+            android:text="Button 2"
+            android:id="@+id/settings_button2"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/borderLine"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@color/colorBlack"
+            android:textColor="@color/colorWhite"
+            android:text="Button 3"
+            android:id="@+id/settings_button3"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/borderLine"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</FrameLayout>
